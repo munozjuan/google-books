@@ -66,8 +66,8 @@ class Search extends Component {
               synopsis={book.volumeInfo.description ? 
                 book.volumeInfo.description : "No Description Available"}
               link={book.volumeInfo.infoLink}
-               thumbnail={book.volumeInfo.imageLinks ? 
-                book.volumeInfo.imageLink : "#"}
+               thumbnail={book.volumeInfo.imageLinks.thumbnail ? 
+                book.volumeInfo.imageLinks.thumbnail : "#"}
               />
 
               <AddBookBtn

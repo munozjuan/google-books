@@ -1,14 +1,8 @@
-.jumbotron {
-    box-shadow: 5px 5px 7px 0px rgba(135,135,135,0.83);
-    background-image: url("../../utils/images/blur-book-stack-books-bookshelves-590493.jpg");
-    background-size: cover;
-    height: 500px;
-    background-position: center;
-}
-
-.myText {
-    color: white;
-    font-weight: bold;
-    position: relative;
-    transform: translateY(100px)
-}
+div.jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1474932430478-367dbb6832c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)
+    
+    }
+    
+    .white{
+        color:floralwhite;
+    }

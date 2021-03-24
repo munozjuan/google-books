@@ -7,7 +7,7 @@ function Nav() {
     <div>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark varient-light">
       <a className="navbar-brand" id="homeLink" href="/">
-      Books Search
+      Book Search
       </a>
      <ul className="navbar-nav">
      <li className="nav-item">

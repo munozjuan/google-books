@@ -37,7 +37,7 @@ class Search extends Component {
     this.setState({
       [name]: value
     });
-    //console.log("Query", this.state.query);
+    
   };
 
 

@@ -25,7 +25,6 @@ class Search extends Component {
     axios
       .get(url)
       .then(res => {
-        //console.log(res);
         this.displayRes(res.data);
       })
       .catch(err => console.log(err));

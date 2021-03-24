@@ -4,6 +4,7 @@ import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { toast } from 'react-toastify';
 
+
 class AddBookBtn extends React.Component{
  
     postToDB = (book) => {
@@ -23,7 +24,7 @@ class AddBookBtn extends React.Component{
     render() {
         return (
           <div>
-          <Button type="primary" onClick={() => 
+          <Button type="outline-secondary" onClick={() => 
             {this.postToDB(this.props)}
             }>
             Save Book

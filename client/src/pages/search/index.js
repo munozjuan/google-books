@@ -40,8 +40,6 @@ class Search extends Component {
   };
 
 
-  
-
   render() {
     return (
       <Row>
